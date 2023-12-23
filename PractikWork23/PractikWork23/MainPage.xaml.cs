@@ -20,10 +20,12 @@ namespace PractikWork23
             double x, y;
             if(!double.TryParse(OXEntry.Text, out x))
             {
+                OXEntry.Text = "";
                 OXEntry.Text += "Введите число";
             }
             if (!double.TryParse(OYEntry.Text, out y))
             {
+                OYEntry.Text = "";
                 OYEntry.Text += "Введите число";
             }
 

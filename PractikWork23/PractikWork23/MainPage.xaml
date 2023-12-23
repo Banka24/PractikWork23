@@ -14,7 +14,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <Label Text="Домашнее задание" HorizontalOptions="Center"/>
-            <Image Source="dm.png" Grid.Row="1"/>
+            <Image Source="example.png" Grid.Row="1"/>
             <Entry x:Name="OXEntry" Placeholder="Координата Х" Grid.Row="2"/>
             <Entry x:Name="OYEntry" Placeholder="Координата Y" Grid.Row="3"/>
             <Entry x:Name="AnswerEntry" IsReadOnly="True" Grid.Row="4"/>
